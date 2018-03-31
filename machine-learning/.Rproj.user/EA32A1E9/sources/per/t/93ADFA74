@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1520307120407.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "4130062854",
+    "id" : "93ADFA74",
+    "lastKnownWriteTime" : 1520346550,
+    "last_content_update" : 1520346550412,
+    "path" : "~/code/machine-learning/stock-prediction.R",
+    "project_path" : "stock-prediction.R",
+    "properties" : {
+        "cursorPosition" : "44,43",
+        "scrollLine" : "27",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

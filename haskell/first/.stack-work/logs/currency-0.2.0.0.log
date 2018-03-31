@@ -1,0 +1,21 @@
+Configuring currency-0.2.0.0...
+Preprocessing library for currency-0.2.0.0..
+Building library for currency-0.2.0.0..
+[1 of 2] Compiling Currency         ( Currency.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-2.0.1.0/build/Currency.o )
+
+[;1mCurrency.hs:10:1: [;1m[35mwarning:[0m[0m[;1m [[;1m[35m-Wtabs[0m[0m[;1m][0m[0m[;1m
+    Tab character found here, and in 756 further locations.
+    Please use spaces instead.[0m[0m
+[;1m[34m   |[0m[0m
+[;1m[34m10 |[0m[0m [;1m[35m        [0m[0mNationalCurrency Country.CountryCode Char |
+[;1m[34m   |[0m[0m[;1m[35m ^^^^^^^^[0m[0m
+[0m[0m[0m[2 of 2] Compiling Currency.Rates   ( Currency/Rates.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-2.0.1.0/build/Currency/Rates.o )
+
+[;1mCurrency/Rates.hs:8:1: [;1m[35mwarning:[0m[0m[;1m [[;1m[35m-Wtabs[0m[0m[;1m][0m[0m[;1m
+    Tab character found here, and in 14 further locations.
+    Please use spaces instead.[0m[0m
+[;1m[34m  |[0m[0m
+[;1m[34m8 |[0m[0m [;1m[35m        [0m[0m        reference :: a,
+[;1m[34m  |[0m[0m[;1m[35m ^^^^^^^^[0m[0m
+[0m[0m[0mInstalling library in /home/cameron/code/haskell/first/.stack-work/install/x86_64-linux-nopie/lts-11.0/8.2.2/lib/x86_64-linux-ghc-8.2.2/currency-0.2.0.0-9fnH0QaAO8J8Y7voueVuvf
+Registering library for currency-0.2.0.0..

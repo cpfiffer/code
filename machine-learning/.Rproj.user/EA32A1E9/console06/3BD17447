@@ -1,0 +1,6 @@
+  metrics = c('mean_squared_error')
+]0;/home/cameron/code/machine-learning]0;cameron@raincloud: ~/code/machine-learning[01;32mcameron@raincloud[00m:[01;34m~/code/machine-learning[00m$   metrics = c('mean_squared_error')
+bash: syntax error near unexpected token `('
+]0;/home/cameron/code/machine-learning]0;cameron@raincloud: ~/code/machine-learning[01;32mcameron@raincloud[00m:[01;34m~/code/machine-learning[00m$ )
+bash: syntax error near unexpected token `)'
+]0;/home/cameron/code/machine-learning]0;cameron@raincloud: ~/code/machine-learning[01;32mcameron@raincloud[00m:[01;34m~/code/machine-learning[00m$ 

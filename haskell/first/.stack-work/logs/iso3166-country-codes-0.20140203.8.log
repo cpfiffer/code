@@ -1,0 +1,6 @@
+Configuring iso3166-country-codes-0.20140203.8...
+Preprocessing library for iso3166-country-codes-0.20140203.8..
+Building library for iso3166-country-codes-0.20140203.8..
+[1 of 1] Compiling Data.ISO3166_CountryCodes ( Data/ISO3166_CountryCodes.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-2.0.1.0/build/Data/ISO3166_CountryCodes.o )
+Installing library in /home/cameron/.stack/snapshots/x86_64-linux-nopie/lts-11.0/8.2.2/lib/x86_64-linux-ghc-8.2.2/iso3166-country-codes-0.20140203.8-DC1Ps3YJj55292ZOh5Wt6F
+Registering library for iso3166-country-codes-0.20140203.8..

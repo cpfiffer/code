@@ -1,0 +1,189 @@
+
+==================== FINAL INTERFACE ====================
+2018-03-30 04:06:36.570750874 UTC
+
+interface euler-0.1.0.0-FGJRTdVisWYC7dFuNWt4ji:P21 8022
+  interface hash: 18278cd4e50508102d2dd50d86489d7b
+  ABI hash: d318dd1689ef95eef3a5b740d66e34aa
+  export-list hash: 6a015dfe6e22ca634e52c23ade599a10
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: 644d6a55539ef3caa00f4a217b32942b
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  P21.amicableList
+  P21.isAmicable
+  P21.properDivisors
+  P21.sumAmicable
+  P21.sumDivisors
+module dependencies:
+package dependencies: base-4.10.1.0* ghc-prim-0.5.1.1
+                      integer-gmp-1.0.1.0
+orphans: base-4.10.1.0:GHC.Float base-4.10.1.0:GHC.Base
+family instance modules: base-4.10.1.0:Control.Applicative
+                         base-4.10.1.0:Data.Either base-4.10.1.0:Data.Functor.Const
+                         base-4.10.1.0:Data.Functor.Identity base-4.10.1.0:Data.Monoid
+                         base-4.10.1.0:Data.Type.Equality base-4.10.1.0:GHC.Generics
+                         base-4.10.1.0:GHC.IO.Exception base-4.10.1.0:GHC.TypeLits
+                         base-4.10.1.0:GHC.TypeNats
+import  -/  base-4.10.1.0:Data.Foldable 9ed87455d68e87ff2b5b8725eae9897e
+import  -/  base-4.10.1.0:GHC.Base 782fd99b5e36f3698a26179a49afca64
+import  -/  base-4.10.1.0:GHC.List e3060fbeb44ce0038e6b4dedf2dd9cf1
+import  -/  base-4.10.1.0:GHC.Num 6e1dc5d36d99a802edb39b92bb1923b8
+import  -/  base-4.10.1.0:GHC.Real 3c62834bc25e762eabc44149c4cc142d
+import  -/  base-4.10.1.0:Prelude 31945b7d0084063347fc52506d3a4020
+import  -/  ghc-prim-0.5.1.1:GHC.Classes 93e2660065dce9329577e83d76d8f0d4
+2faeb33099b71ba8dc2699d0d5b30aca
+  $trModule :: GHC.Types.Module
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Module P21.$trModule3 P21.$trModule1) -}
+234b28a687c75cbeb6ec79aff50c41da
+  $trModule1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS P21.$trModule2) -}
+ad0e5f337325516619f40cbd3b6a50d2
+  $trModule2 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("P21"#) -}
+2bddd3476828ac07a05841649769edcf
+  $trModule3 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS P21.$trModule4) -}
+32c73a8d6b6a135a0f6cd10ed2598066
+  $trModule4 :: GHC.Prim.Addr#
+  {- HasNoCafRefs,
+     Unfolding: ("euler-0.1.0.0-FGJRTdVisWYC7dFuNWt4ji"#) -}
+db404473549eb38d8c808d5538e7bd99
+  $wgo :: GHC.Prim.Int# -> GHC.Prim.Int# -> GHC.Prim.Int#
+  {- Arity: 2, Strictness: <S,U><S,U>, Inline: [0] -}
+b2dccb1cf78af88c25af0818fa466344
+  $wisAmicable :: GHC.Prim.Int# -> GHC.Types.Bool
+  {- Arity: 1, Strictness: <S,U>, Inline: [0],
+     Unfolding: (\ (ww :: GHC.Prim.Int#) ->
+                 letrec {
+                   $wgo2 :: [GHC.Types.Int] -> GHC.Prim.Int# -> GHC.Types.Bool
+                     <join 2> {- Arity: 2, Strictness: <S,1*U><S,U>, Inline: [0] -}
+                   = \ (w :: [GHC.Types.Int]) (ww1 :: GHC.Prim.Int#) ->
+                     case w of wild {
+                       []
+                       -> let {
+                            lvl :: GHC.Types.Bool
+                            = GHC.Prim.tagToEnum# @ GHC.Types.Bool (GHC.Prim.==# ww ww1)
+                          } in
+                          letrec {
+                            $wgo3 :: [GHC.Types.Int] -> GHC.Prim.Int# -> GHC.Types.Bool
+                              <join 2> {- Arity: 2, Strictness: <S,1*U><S,U>, Inline: [0] -}
+                            = \ (w1 :: [GHC.Types.Int]) (ww2 :: GHC.Prim.Int#) ->
+                              case w1 of wild1 {
+                                []
+                                -> case GHC.Prim.tagToEnum#
+                                          @ GHC.Types.Bool
+                                          (GHC.Prim.==# ww2 ww) of wild2 {
+                                     GHC.Types.False -> GHC.Types.False
+                                     GHC.Types.True
+                                     -> case lvl of wild3 {
+                                          GHC.Types.False -> GHC.Types.True
+                                          GHC.Types.True -> GHC.Types.False } }
+                                : y ys
+                                -> case y of wild2 { GHC.Types.I# y1 ->
+                                   $wgo3 ys (GHC.Prim.+# ww2 y1) } }
+                          } in
+                          $wgo3 (P21.$wproperDivisors ww1) 0#
+                       : y ys
+                       -> case y of wild1 { GHC.Types.I# y1 ->
+                          $wgo2 ys (GHC.Prim.+# ww1 y1) } }
+                 } in
+                 $wgo2 (P21.$wproperDivisors ww) 0#) -}
+5f29cd036f6901d6d8ba00ea0565f451
+  $wproperDivisors :: GHC.Prim.Int# -> [GHC.Types.Int]
+  {- Arity: 1, Strictness: <S,U>, Inline: [0],
+     Unfolding: (\ (ww :: GHC.Prim.Int#) ->
+                 let {
+                   ww4 :: GHC.Prim.Int# = GHC.Prim.uncheckedIShiftRA# ww 1#
+                 } in
+                 case GHC.Prim.tagToEnum#
+                        @ GHC.Types.Bool
+                        (GHC.Prim.># 1# ww4) of wild {
+                   GHC.Types.False
+                   -> letrec {
+                        lvl :: [GHC.Types.Int]
+                        = case ww4 of wild1 {
+                            DEFAULT -> go 0# -1# -> GHC.Types.[] @ GHC.Types.Int }
+                        lvl1 :: [GHC.Types.Int]
+                        = GHC.Types.: @ GHC.Types.Int P21.isAmicable1 lvl
+                        go :: GHC.Prim.Int# -> [GHC.Types.Int]
+                          {- Arity: 1, Strictness: <S,1*U> -}
+                        = \ (x :: GHC.Prim.Int#) ->
+                          case x of wild1 {
+                            DEFAULT
+                            -> case GHC.Classes.modInt# ww wild1 of ww2 {
+                                 DEFAULT
+                                 -> case GHC.Prim.tagToEnum#
+                                           @ GHC.Types.Bool
+                                           (GHC.Prim.==# wild1 ww4) of wild2 {
+                                      GHC.Types.False -> go (GHC.Prim.+# wild1 1#)
+                                      GHC.Types.True -> GHC.Types.[] @ GHC.Types.Int }
+                                 0#
+                                 -> GHC.Types.:
+                                      @ GHC.Types.Int
+                                      (GHC.Types.I# wild1)
+                                      (case GHC.Prim.tagToEnum#
+                                              @ GHC.Types.Bool
+                                              (GHC.Prim.==# wild1 ww4) of wild2 {
+                                         GHC.Types.False -> go (GHC.Prim.+# wild1 1#)
+                                         GHC.Types.True -> GHC.Types.[] @ GHC.Types.Int }) }
+                            -1# -> lvl1
+                            0# -> case GHC.Real.divZeroError ret_ty [GHC.Types.Int] of {} }
+                      } in
+                      go 1#
+                   GHC.Types.True -> GHC.Types.[] @ GHC.Types.Int }) -}
+46388b8cd1358dbd9b130ff9a24c1d9c
+  amicableList :: [GHC.Types.Int]
+  {- Unfolding: (P21.amicableList_go 1#) -}
+aaea84c91f7a417d3c8d9a2891af83e2
+  amicableList_go :: GHC.Prim.Int# -> [GHC.Types.Int]
+  {- Arity: 1, Strictness: <S,U> -}
+829685d2247354d20a97287d28757c2a
+  isAmicable :: GHC.Types.Int -> GHC.Types.Bool
+  {- Arity: 1, Strictness: <S(S),1*U(U)>, Inline: [0],
+     Unfolding: InlineRule (1, True, False)
+                (\ (w :: GHC.Types.Int) ->
+                 case w of ww { GHC.Types.I# ww1 -> P21.$wisAmicable ww1 }) -}
+be5f0bb48292d5b586df35a27c3c3168
+  isAmicable1 :: GHC.Types.Int
+  {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.I# -1#) -}
+44dbab8649271f5f8db45e7992fc578c
+  properDivisors :: GHC.Types.Int -> [GHC.Types.Int]
+  {- Arity: 1, Strictness: <S(S),1*U(U)>, Inline: [0],
+     Unfolding: InlineRule (1, True, False)
+                (\ (w :: GHC.Types.Int) ->
+                 case w of ww { GHC.Types.I# ww1 -> P21.$wproperDivisors ww1 }) -}
+412bd857efaea5749a1dea8bd43944c0
+  sumAmicable :: GHC.Types.Int
+  {- Unfolding: (case P21.$wgo 1# 0# of ww { DEFAULT ->
+                 GHC.Types.I# ww }) -}
+0247bc8f163671f0ff9a7cca108c2be9
+  sumDivisors :: GHC.Types.Int -> GHC.Types.Int
+  {- Arity: 1, Strictness: <S(S),1*U(U)>m, Inline: [0],
+     Unfolding: InlineRule (1, True, False)
+                (\ (w :: GHC.Types.Int) ->
+                 case w of ww { GHC.Types.I# ww1 ->
+                 letrec {
+                   $wgo2 :: [GHC.Types.Int] -> GHC.Prim.Int# -> GHC.Types.Int
+                     <join 2> {- Arity: 2, Strictness: <S,1*U><L,U>m, Inline: [0] -}
+                   = \ (w1 :: [GHC.Types.Int]) (ww2 :: GHC.Prim.Int#) ->
+                     case w1 of wild {
+                       [] -> GHC.Types.I# ww2
+                       : y ys
+                       -> case y of wild1 { GHC.Types.I# y1 ->
+                          $wgo2 ys (GHC.Prim.+# ww2 y1) } }
+                 } in
+                 $wgo2 (P21.$wproperDivisors ww1) 0# }) -}
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: safe
+require own pkg trusted: False
+

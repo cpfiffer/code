@@ -1,0 +1,8 @@
+Configuring currencies-0.1.1.1...
+Preprocessing library for currencies-0.1.1.1..
+Building library for currencies-0.1.1.1..
+[1 of 3] Compiling Data.Currency.Currencies ( src/Data/Currency/Currencies.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-2.0.1.0/build/Data/Currency/Currencies.o )
+[2 of 3] Compiling Data.Currency.Amounts ( src/Data/Currency/Amounts.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-2.0.1.0/build/Data/Currency/Amounts.o )
+[3 of 3] Compiling Data.Currency.Pretty ( src/Data/Currency/Pretty.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-2.0.1.0/build/Data/Currency/Pretty.o )
+Installing library in /home/cameron/.stack/snapshots/x86_64-linux-nopie/lts-11.0/8.2.2/lib/x86_64-linux-ghc-8.2.2/currencies-0.1.1.1-IYRESh9PUebIezC5OlPnmj
+Registering library for currencies-0.1.1.1..

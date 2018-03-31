@@ -1,0 +1,7 @@
+Configuring bson-0.3.2.3...
+Preprocessing library for bson-0.3.2.3..
+Building library for bson-0.3.2.3..
+[1 of 2] Compiling Data.Bson        ( Data/Bson.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-2.0.1.0/build/Data/Bson.o )
+[2 of 2] Compiling Data.Bson.Binary ( Data/Bson/Binary.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-2.0.1.0/build/Data/Bson/Binary.o )
+Installing library in /home/cameron/.stack/snapshots/x86_64-linux-nopie/lts-11.0/8.2.2/lib/x86_64-linux-ghc-8.2.2/bson-0.3.2.3-25410dWh4YGGk5uRNaQqaX
+Registering library for bson-0.3.2.3..

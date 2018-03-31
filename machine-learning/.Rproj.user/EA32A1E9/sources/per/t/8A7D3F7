@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1520307321519.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "843711495",
+    "id" : "8A7D3F7",
+    "lastKnownWriteTime" : 1520307396,
+    "last_content_update" : 1520307396656,
+    "path" : "~/code/machine-learning/setup.R",
+    "project_path" : "setup.R",
+    "properties" : {
+        "cursorPosition" : "1,67",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

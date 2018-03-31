@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1520344005662.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3715397530",
+    "id" : "2AC7AEA6",
+    "lastKnownWriteTime" : 1520344966,
+    "last_content_update" : 1520344966059,
+    "path" : "~/code/machine-learning/diagnostics.R",
+    "project_path" : "diagnostics.R",
+    "properties" : {
+        "cursorPosition" : "31,30",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

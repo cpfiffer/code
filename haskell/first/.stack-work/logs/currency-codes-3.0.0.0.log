@@ -1,0 +1,6 @@
+Configuring currency-codes-3.0.0.0...
+Preprocessing library for currency-codes-3.0.0.0..
+Building library for currency-codes-3.0.0.0..
+[1 of 1] Compiling Data.Currency    ( src/Data/Currency.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-2.0.1.0/build/Data/Currency.o )
+Installing library in /home/cameron/code/haskell/first/.stack-work/install/x86_64-linux-nopie/lts-11.0/8.2.2/lib/x86_64-linux-ghc-8.2.2/currency-codes-3.0.0.0-2sgYqOksMyS9fYb0zzyWC3
+Registering library for currency-codes-3.0.0.0..
