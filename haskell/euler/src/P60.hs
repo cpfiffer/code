@@ -7,6 +7,14 @@ comb 0 _      = [[]]
 comb _ []     = []
 comb m (x:xs) = map (x:) (comb (m-1) xs) ++ comb m xs
 
+comb' :: Int -> [Int] -> [[Int]] -> [[Int]]
+comb' 0 _  _    = [[]]
+comb' _ [] _    = []
+comb' m (x:xs) rm = next ++ comb' m xs rm
+  where next = if or $ map (not . listHasTwo rm) ps then ps
+               else [[]]
+        ps = map (x:) (comb' (m-1) xs rm)
+
 plist :: [Int]
 plist = [3, 7, 109, 673]
 
@@ -102,12 +110,21 @@ first  (x,_,_) = x
 second (_,x,_) = x
 third  (_,_,x) = x
 
+concatablePairs' :: [[Int]]
+concatablePairs' = [ x | x <- comb' 4 (take amount changedPrimes) failures]
+  where failures = whichFail [z | z <- comb 2 (take amount changedPrimes)] []
+        amount = 250
+
 concatablePairs :: [[Int]]
 concatablePairs = [ x | x <- comb 4 (take amount changedPrimes), listHasTwo failures x]
   where failures = whichFail [z | z <- comb 2 (take amount changedPrimes)] []
-        amount = 100
+        amount = 250
+
+concatablePairs2 :: [[Int]]
+concatablePairs2 = [ x | x <- comb 4 (take amount changedPrimes)]
+  where amount = 250
 
 changedPrimes :: [Int]
 changedPrimes = filter (/=2) (filter (/=5) primes)
 
-answer = loud concatablePairs 10101010 0
+answer = loud concatablePairs2 10101010 0

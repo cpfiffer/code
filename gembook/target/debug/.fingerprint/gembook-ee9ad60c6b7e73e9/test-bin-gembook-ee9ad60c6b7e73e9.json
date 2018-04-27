@@ -1,0 +1,1 @@
+{"rustc":7277502108676280268,"features":"[]","target":14223665151128945394,"profile":574609882866199469,"path":1036222786711178230,"deps":[["rand v0.3.22",7731692416214037806],["websocket v0.20.2",4896302363653892390]],"local":[{"MtimeBased":[[1523588736,662960083],".fingerprint/gembook-ee9ad60c6b7e73e9/dep-test-bin-gembook-ee9ad60c6b7e73e9"]}],"rustflags":[],"epoch":"Epoch2015"}

@@ -1,0 +1,13 @@
+/home/cameron/code/gembook/target/rls/debug/deps/url-b876307da3166035.rmeta: /home/cameron/.cargo/registry/src/github.com-1ecc6299db9ec823/url-1.7.0/src/lib.rs /home/cameron/.cargo/registry/src/github.com-1ecc6299db9ec823/url-1.7.0/src/encoding.rs /home/cameron/.cargo/registry/src/github.com-1ecc6299db9ec823/url-1.7.0/src/host.rs /home/cameron/.cargo/registry/src/github.com-1ecc6299db9ec823/url-1.7.0/src/origin.rs /home/cameron/.cargo/registry/src/github.com-1ecc6299db9ec823/url-1.7.0/src/path_segments.rs /home/cameron/.cargo/registry/src/github.com-1ecc6299db9ec823/url-1.7.0/src/parser.rs /home/cameron/.cargo/registry/src/github.com-1ecc6299db9ec823/url-1.7.0/src/slicing.rs /home/cameron/.cargo/registry/src/github.com-1ecc6299db9ec823/url-1.7.0/src/form_urlencoded.rs /home/cameron/.cargo/registry/src/github.com-1ecc6299db9ec823/url-1.7.0/src/quirks.rs
+
+/home/cameron/code/gembook/target/rls/debug/deps/url-b876307da3166035.d: /home/cameron/.cargo/registry/src/github.com-1ecc6299db9ec823/url-1.7.0/src/lib.rs /home/cameron/.cargo/registry/src/github.com-1ecc6299db9ec823/url-1.7.0/src/encoding.rs /home/cameron/.cargo/registry/src/github.com-1ecc6299db9ec823/url-1.7.0/src/host.rs /home/cameron/.cargo/registry/src/github.com-1ecc6299db9ec823/url-1.7.0/src/origin.rs /home/cameron/.cargo/registry/src/github.com-1ecc6299db9ec823/url-1.7.0/src/path_segments.rs /home/cameron/.cargo/registry/src/github.com-1ecc6299db9ec823/url-1.7.0/src/parser.rs /home/cameron/.cargo/registry/src/github.com-1ecc6299db9ec823/url-1.7.0/src/slicing.rs /home/cameron/.cargo/registry/src/github.com-1ecc6299db9ec823/url-1.7.0/src/form_urlencoded.rs /home/cameron/.cargo/registry/src/github.com-1ecc6299db9ec823/url-1.7.0/src/quirks.rs
+
+/home/cameron/.cargo/registry/src/github.com-1ecc6299db9ec823/url-1.7.0/src/lib.rs:
+/home/cameron/.cargo/registry/src/github.com-1ecc6299db9ec823/url-1.7.0/src/encoding.rs:
+/home/cameron/.cargo/registry/src/github.com-1ecc6299db9ec823/url-1.7.0/src/host.rs:
+/home/cameron/.cargo/registry/src/github.com-1ecc6299db9ec823/url-1.7.0/src/origin.rs:
+/home/cameron/.cargo/registry/src/github.com-1ecc6299db9ec823/url-1.7.0/src/path_segments.rs:
+/home/cameron/.cargo/registry/src/github.com-1ecc6299db9ec823/url-1.7.0/src/parser.rs:
+/home/cameron/.cargo/registry/src/github.com-1ecc6299db9ec823/url-1.7.0/src/slicing.rs:
+/home/cameron/.cargo/registry/src/github.com-1ecc6299db9ec823/url-1.7.0/src/form_urlencoded.rs:
+/home/cameron/.cargo/registry/src/github.com-1ecc6299db9ec823/url-1.7.0/src/quirks.rs:

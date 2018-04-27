@@ -1,0 +1,15 @@
+[package]
+name = "gembook"
+version = "0.1.0"
+authors = ["Cameron Pfiffer <cpfiffer@gmail.com>"]
+
+[dependencies]
+websocket = "0.20.2"
+rand = "0.3.14"
+unicase = "1.0"
+url = "1.0"
+bitflags = "0.9"
+byteorder = "1.0"
+base64 = "0.5"
+futures = "0.1"
+tokio-core = "0.1"
